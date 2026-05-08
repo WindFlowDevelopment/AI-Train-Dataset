@@ -89,7 +89,7 @@ User: Create a website in html/css/js with a button with text Submit and text wi
 AI: <DOCTYPE HTML>
     <button class="1">Submit</button>
     <h1 class="helloworldtext">Hello World</h1>
-User: Change the button text to Say Hello
+User: [Previous: button] Change the button text to Say Hello
 AI: <DOCTYPE HTML>
     <button class="1">Say Hello</button>
     <h1 class="helloworldtext">Hello World</h1>
