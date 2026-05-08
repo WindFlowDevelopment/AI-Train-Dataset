@@ -35,3 +35,16 @@ AI: Hello! What can I do for you?
 User: Hello!
 AI: Hello again! You keep saying hello. What can I do for you?
 ```
+
+# Same Training Data multiple times
+### IMPORTANT:
+- If the training file includes the following:
+```
+Hello!
+How can I help you today?
+
+Hello!
+What can I do for you?
+```
+- then the AI chooses ONE of the available options, if [Previous] is included, it still works with both options, so don't worry about that.
+- We would recommend that your training tool supports atleast ~ 250 repeats on same thing for best quality.
