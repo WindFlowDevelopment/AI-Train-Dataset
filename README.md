@@ -70,3 +70,27 @@ What can I do for you?
 **NOTE:** If you want to train your AI with more than 100 million parameters, you will need a **very good** GPU. Small or old GPUs may not be able to handle it.
 
 **NOTE:** If you have CPU only (or can access CPU only) then only train the AI up to 1 million parameters, because it may take up to **weeks or months** until the train progress ends with CPU.
+
+# AI Combinations / Coding Tasks / Complex Tasks
+- You feel that if your asking an AI: **Build a landing page in html/css/js in dark purple style with several sections, cards, textes, etc..** but with plain training data that is **technically** not possible.
+**BUT WE HAVE THE SOLUTION!**
+- You can create .comb files to train the AI for combinations. Example buttons-and-textes.comb:
+```
+User: Create a website in html/css/js with a button with text Submit and text with font Roboto and content: "Hello World!"
+AI: <DOCTYPE HTML>
+    <button class="1">Submit</button>
+    <h1 class="helloworldtext">Hello World</h1>
+    ...
+```
+- If your defining [Previous] objects in .comb files then the AI is learning more deeply. So it can even do things, which it isn't trained for because it can find own examples. **NOTE:** Your training tool **MUST** include these features.
+- Example:
+```
+User: Create a website in html/css/js with a button with text Submit and text with font Roboto and content: "Hello World!"
+AI: <DOCTYPE HTML>
+    <button class="1">Submit</button>
+    <h1 class="helloworldtext">Hello World</h1>
+User: Change the button text to Say Hello
+AI: <DOCTYPE HTML>
+    <button class="1">Say Hello</button>
+    <h1 class="helloworldtext">Hello World</h1>
+```
