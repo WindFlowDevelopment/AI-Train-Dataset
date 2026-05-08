@@ -48,3 +48,19 @@ What can I do for you?
 ```
 - then the AI chooses ONE of the available options, if [Previous] is included, it still works with both options, so don't worry about that.
 - We would recommend that your training tool supports atleast ~ 250 repeats on same thing for best quality.
+
+# Training - Parameters
+### Recommended Parameters:
+| Parameters   | Purpose        |
+|--------|-------------|
+| 25.000  | Small LLM for smalltalks   |
+| 50.000    | Small LLM for testing small coding features or smalltalks    |
+| 100.000  | Small LLM for testing code features or talking about some things     |
+| 200.000 | Medium LLM for medium tasks with smarter outputs |
+| 500.000 | Medium LLM for bigger medium tasks with alot of smarter outputs |
+| 1.000.000 | Big Medium LLM for general coding tasks, debugging or chatting |
+| 5.000.000 | Big Medium LLM for general coding tasks, debugging or chatting |
+| 15.000.000 | Big Medium LLM for medium coding tasks with ALOT of smarter outputs |
+| 30.000.000 | Big Medium LLM for medium coding tasks with ALOT of smarter outputs |
+| 100.000.000 | Full LLM for big coding tasks with ALOT of smarter outputs and reasoning tasks |
+| 1B+ | Brutally LLM for very large coding tasks, very hard tasks, complex questions |
