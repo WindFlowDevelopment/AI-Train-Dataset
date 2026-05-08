@@ -66,3 +66,7 @@ What can I do for you?
 | 1B+ | Brutally LLM for very large coding tasks, very hard tasks, complex questions |
 | 50B+ | BRUTALLY COMPLEX TASK SOLVING + Very quick AI responses |
 | 200B+ | BRUTALLY COMPLEX TASK SOLVING + Very quick AI responses + AI finding millions of own examples and implementing them |
+
+**NOTE:** If you want to train your AI with more than 100 million parameters, you will need a **very good** GPU. Small or old GPUs may not be able to handle it.
+
+**NOTE:** If you have CPU only (or can access CPU only) then only train the AI up to 1 million parameters, because it may take up to **weeks or months** until the train progress ends with CPU.
