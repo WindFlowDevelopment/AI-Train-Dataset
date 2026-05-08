@@ -64,3 +64,5 @@ What can I do for you?
 | 30.000.000 | Big Medium LLM for medium coding tasks with ALOT of smarter outputs |
 | 100.000.000 | Full LLM for big coding tasks with ALOT of smarter outputs and reasoning tasks |
 | 1B+ | Brutally LLM for very large coding tasks, very hard tasks, complex questions |
+| 50B+ | BRUTALLY COMPLEX TASK SOLVING + Very quick AI responses |
+| 200B+ | BRUTALLY COMPLEX TASK SOLVING + Very quick AI responses + AI finding millions of own examples and implementing them |
